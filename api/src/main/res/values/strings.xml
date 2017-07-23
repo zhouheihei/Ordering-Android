@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Api</string>
+    <string name="BASEURL">http://192.168.1.106:8080</string>
+    <!--<string name="BASEURL">http://192.168.1.106:8080</string>-->
+    <string name="users_add">/app/v1/users/add</string>
+    <string name="users_login">/app/v1/users/userlogin</string>
+
+    <string name="rtinfo_add">/app/v1/rtinfo/add</string>
+    <string name="rtinfo_querybyall">/app/v1/rtinfo/querybyall</string>
+    <string name="rtinfo_querybyid">/app/v1/rtinfo/querybyid</string>
+    <string name="rtinfo_byid">/app/v1/rtinfo/querybyid</string>
+
+    <string name="seatinfo_add">/app/v1/seatinfo/add</string>
+    <string name="seatinfo_update">/app/v1/seatinfo/update</string>
+    <string name="seatinfo_querybyall">/app/v1/seatinfo/querybyall</string>
+    <string name="seatinfo_querybyrtid">/app/v1/seatinfo/querybyrtid</string>
+    <string name="seatinfo_querybyid">/app/v1/seatinfo/querybyid</string>
+
+    <string name="orderinfo_add">/app/v1/orderinfo/add</string>
+    <string name="orderinfo_update">/app/v1/orderinfo/update</string>
+    <string name="orderinfo_updatebyfoodstr">/app/v1/orderinfo/updatebyfoodstr</string>
+    <string name="orderinfo_querybyall">/app/v1/orderinfo/querybyall</string>
+    <string name="orderinfo_querybyid">/app/v1/orderinfo/queryById</string>
+    <string name="orderinfo_querybyuserid">/app/v1/orderinfo/queryByUserId</string>
+    <string name="orderinfo_querybyiscreate">/app/v1/orderinfo/querybuiscreate</string>
+
+    <string name="foodinfo_add">/app/v1/foodinfo/add</string>
+    <string name="foodinfo_querybyall">/app/v1/foodinfo/queryByAll</string>
+    <string name="foodinfo_querybyrtid">/app/v1/foodinfo/queryByrtId</string>
+    <string name="foodinfo_querybyuserid">/app/v1/orderinfo/queryByUserId</string>
+    <string name="foodinfo_querybyid">/app/v1/foodinfo/queryById</string>
+    <string name="foodinfo_querybyidstr">/app/v1/foodinfo/queryByIdstr</string>
+</resources>

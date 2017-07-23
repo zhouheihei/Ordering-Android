@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="app.nosleep.com.ordering">
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <!-- 从sdcard中读取数据的权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <!-- 往sdcard中写入数据的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:name=".BaseApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/applogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".RestaurantInfoActivity"
+            android:label="@string/title_activity_restaurant_info"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".SelectDateTimeActivity"
+            android:label="@string/title_activity_select_date_time"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".RegeditActivity"
+            android:label="@string/app_name"
+            android:theme="@style/ImageTranslucentTheme"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustPan">
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label=""
+            android:theme="@style/ImageTranslucentTheme"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustPan">
+        </activity>
+        <activity android:name=".SplashActivity"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/MyStartTheme"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SelectTimeActivity"
+            android:label="@string/title_activity_select_time"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".OrderActivity"
+            android:label="@string/title_activity_order"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".SelectFoodActivity"
+            android:label="@string/title_activity_select_food"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".CheckOutActivity"
+            android:label="@string/title_activity_check_out"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+        <activity
+            android:name=".MyActivity"
+            android:label="@string/title_activity_my"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

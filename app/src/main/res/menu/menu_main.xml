@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="app.nosleep.com.ordering.MainActivity">
+    <item
+        android:id="@+id/toolar_checkout"
+        android:orderInCategory="90"
+        android:title="结账"
+        app:showAsAction="ifRoom" />
+</menu>

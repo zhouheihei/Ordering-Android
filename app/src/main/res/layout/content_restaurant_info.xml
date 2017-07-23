@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rt_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.nosleep.com.ordering.RestaurantInfoActivity"
+    tools:showIn="@layout/activity_restaurant_info"
+    android:background="@color/allwbackroundcolor"
+>
+    <RelativeLayout android:id="@+id/rt_head_rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/allbackroundcolor"
+                    android:layout_marginBottom="10dp"
+    >
+        <TextView
+            android:id="@+id/rt_head_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="一号餐厅"
+            android:textColor="@color/alltextcolor"
+            android:textSize="28sp"
+        />
+        <TextView
+            android:id="@+id/rt_head_slogen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rt_head_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="一家美味的餐厅..."
+            android:textColor="@color/alltextcolor"
+            android:textSize="20sp"
+        />
+
+        <TextView
+            android:id="@+id/rt_head_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rt_head_slogen"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="20dp"
+            android:text="一家美味的餐厅..."
+            android:textColor="@color/alltextcolor"
+            android:textSize="15sp"
+            android:drawableLeft="@mipmap/ic_phone_b_32"
+            android:drawablePadding="3dp"
+        />
+        <TextView
+            android:id="@+id/rt_head_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rt_head_phone"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="20dp"
+            android:text="一家美味的餐厅..."
+            android:textColor="@color/alltextcolor"
+            android:textSize="15sp"
+            android:drawableLeft="@mipmap/ic_map_b_32"
+            android:drawablePadding="3dp"
+        />
+
+
+    </RelativeLayout>
+    <GridView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/rt_grid_seat"
+              android:numColumns="2"
+              android:layout_below="@id/rt_head_rl"
+              android:verticalSpacing="10dp"
+              android:horizontalSpacing="10dp"
+              android:scrollbars="none"
+    />
+</RelativeLayout>

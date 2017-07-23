@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">点点儿</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_restaurant_info">餐厅介绍-选择座位</string>
+    <string name="title_activity_select_date_time">选择就餐日期</string>
+    <string name="title_activity_select_time">选择就餐时间</string>
+    <string name="title_activity_order">订单详情</string>
+    <string name="title_activity_select_food">选择菜品</string>
+    <string name="title_activity_check_out">结账</string>
+    <string name="title_activity_my">我的订单</string>
+</resources>

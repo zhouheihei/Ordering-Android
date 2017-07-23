@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@color/allbackroundcolor"
+                android:id="@+id/rt_list_gv"
+>
+
+
+    <TextView
+        android:id="@+id/rt_list_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="巴黎厅"
+        android:textColor="@color/alltextcolor"
+        android:textSize="28sp"
+    />
+    <TextView
+        android:id="@+id/rt_list_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rt_list_name"
+        android:layout_centerHorizontal="true"
+        android:text="10-20人"
+        android:textColor="@color/alltextcolor"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:paddingBottom="10dp"
+    />
+    <TextView
+        android:id="@+id/rt_list_is"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="#fc568f"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

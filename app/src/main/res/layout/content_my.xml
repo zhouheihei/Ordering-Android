@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.nosleep.com.ordering.MyActivity"
+    android:background="@color/allwbackroundcolor"
+    tools:showIn="@layout/activity_my"
+>
+    <TextView
+        android:id="@+id/my_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户ID:12345"
+        android:textColor="@color/colorTextWrite"
+        android:textSize="18dp"
+        android:layout_margin="5dp"
+        android:visibility="invisible"
+        android:enabled="true"
+    />
+    <TextView
+        android:id="@+id/my_ordernumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="订单数:12"
+        android:textColor="@color/colorTextWrite"
+        android:textSize="18dp"
+        android:layout_margin="5dp"
+    />
+    <TextView
+        android:id="@+id/my_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/my_ordernumber"
+        android:textColor="@color/colorTextWrite"
+    />
+    <ListView
+        android:id="@+id/my_list_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_line"
+        android:dividerHeight="10dp"
+        android:divider="@android:color/transparent"
+    />
+</RelativeLayout>
