@@ -9,15 +9,15 @@ Ordering-Android
 * 服务器端
 * 服务器端Spring boot
 * okhttp库
-* gson库
-![图片1](https://github.com/nosleeps/Ordering-Android/raw/master/img/p1.png)<br>
+* gson库<br>
+![图片1](https://github.com/nosleeps/Ordering-Android/raw/master/img/p1.png)
 ![图片2](https://github.com/nosleeps/Ordering-Android/raw/master/img/p2.png)<br>
-![图片3](https://github.com/nosleeps/Ordering-Android/raw/master/img/p3.png)<br>
+![图片3](https://github.com/nosleeps/Ordering-Android/raw/master/img/p3.png)
 ![图片4](https://github.com/nosleeps/Ordering-Android/raw/master/img/p4.png)<br>
-![图片5](https://github.com/nosleeps/Ordering-Android/raw/master/img/p5.png)<br>
+![图片5](https://github.com/nosleeps/Ordering-Android/raw/master/img/p5.png)
 ![图片1](https://github.com/nosleeps/Ordering-Android/raw/master/img/p6.png)<br>
-![图片1](https://github.com/nosleeps/Ordering-Android/raw/master/img/p7.png)<br>
+![图片1](https://github.com/nosleeps/Ordering-Android/raw/master/img/p7.png)
 ![图片1](https://github.com/nosleeps/Ordering-Android/raw/master/img/p8.png)<br>
-![图片1](https://github.com/nosleeps/Ordering-Android/raw/master/img/p9.png)<br>
+![图片1](https://github.com/nosleeps/Ordering-Android/raw/master/img/p9.png)
 ![图片1](https://github.com/nosleeps/Ordering-Android/raw/master/img/p10.png)<br>
-![图片1](https://github.com/nosleeps/Ordering-Android/raw/master/img/p11.png)<br>
+![图片1](https://github.com/nosleeps/Ordering-Android/raw/master/img/p11.png)
